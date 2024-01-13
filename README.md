@@ -45,6 +45,7 @@ Create a database in PostgreSQL with name "UserData" or use SQL dump.
   ```bash
   npm run serve
 
-5. Access the Application:
+5. **Access the Application:**
+
 Open your web browser and go to http://localhost:8081 to access the application.
 If in the terminal you have port 8080 you need start backend first then frontend.
