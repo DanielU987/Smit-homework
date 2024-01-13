@@ -88,7 +88,6 @@ export default {
       this.retrieveUsers();
       this.name = "";
       this.currentUser = null;
-      this.currentIndex = -1;
     },
 
     searchUser() {
