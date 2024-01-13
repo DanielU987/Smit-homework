@@ -22,7 +22,10 @@ To get the project up and running, follow these steps:
    git clone https://github.com/DanielU987/Smit-homework.git
 
 2. **Database Setup:**
-Create a database in PostgreSQL with name "UserData" or use SQL dump.
+
+* Create a database in PostgreSQL with name "UserData" or use SQL dump.
+
+* If you created db manually there is no need to create table because spring will do it for you.
 
 3. **Backend Setup:**
 * Navigate to the backend directory:
