@@ -1,10 +1,9 @@
 <template>
-  <div id="App">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <router-link to="/" class="navbar-brand">bezKoder</router-link>
+      <router-link to="/" class="navbar-brand">Home</router-link>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/users" class="nav-link">Tutorials</router-link>
+          <router-link to="/users" class="nav-link">Users</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/add" class="nav-link">Add</router-link>
@@ -15,7 +14,6 @@
     <div class="container mt-3">
       <router-view />
     </div>
-  </div>
 </template>
 
 <script>
@@ -32,6 +30,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

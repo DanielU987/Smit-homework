@@ -10,9 +10,11 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "users")
 public class Contact {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(name = "Name")
     private String name;
 
@@ -52,16 +54,16 @@ public class Contact {
 	}
 
 	public String getPhoneNumber() {
-		return secretCodeName;
+		return phoneNumber;
 	}
 
-	public void setPhoneNumber(String secretCodeName) {
-		this.secretCodeName = secretCodeName;
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
 	@Override
 	public String toString() {
-		return "Contact [id=" + id + ", name=" + name + ", desc=" + secretCodeName + ", published=" + phoneNumber + "]";
+		return "Contact [id=" + id + ", name=" + name + ", secret code name=" + secretCodeName + ", phone number=" + phoneNumber + "]";
 	}
 
 }

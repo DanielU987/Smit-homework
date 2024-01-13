@@ -41,6 +41,7 @@
       <div v-else>
         <h4>You submitted successfully!</h4>
         <button class="btn btn-success" @click="newUser">Add</button>
+        <router-link to="/" class="btn btn-primary">Home</router-link>
       </div>
     </div>
   </template>
