@@ -2,6 +2,8 @@
 
 Test task for SMIT internship.
 
+Time it took me to accomplish this task was around 8 hours
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
