@@ -43,7 +43,6 @@ public class ContactController {
                     Sort sortArray = Sort.by(Sort.Direction.fromString(sort), "name");
                     ContactRepository.findAll(sortArray).forEach(users::add);
                 } else {
-                    // Если sort пуст, просто получаем все контакты без сортировки
                     ContactRepository.findAll().forEach(users::add);
                 }
             } else

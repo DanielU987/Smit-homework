@@ -2,6 +2,8 @@
 
 Test task for SMIT internship.
 
+Time it took me to accomplish this task was around 8 hours
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -20,7 +22,10 @@ To get the project up and running, follow these steps:
    git clone https://github.com/DanielU987/Smit-homework.git
 
 2. **Database Setup:**
-Create a database in PostgreSQL with name "UserData" or use SQL dump.
+
+* Create a database in PostgreSQL with name "UserData" or use SQL dump.
+
+* If you created db manually there is no need to create table because spring will do it for you.
 
 3. **Backend Setup:**
 * Navigate to the backend directory:
@@ -45,6 +50,7 @@ Create a database in PostgreSQL with name "UserData" or use SQL dump.
   ```bash
   npm run serve
 
-5. Access the Application:
+5. **Access the Application:**
+
 Open your web browser and go to http://localhost:8081 to access the application.
 If in the terminal you have port 8080 you need start backend first then frontend.
